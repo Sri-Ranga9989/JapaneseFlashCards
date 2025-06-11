@@ -1,0 +1,2956 @@
+{
+  "vocabulary": [
+    {
+      "hiragana": "どうぶつ",
+      "romaji": "doubutsu",
+      "meaning": "animals",
+      "category": "nature",
+      "week": 1,
+      "box": 1
+    },
+    {
+      "hiragana": "いぬ",
+      "romaji": "inu",
+      "meaning": "dog",
+      "category": "animals",
+      "week": 1,
+      "box": 1
+    },
+    {
+      "hiragana": "ねこ",
+      "romaji": "neko",
+      "meaning": "cat",
+      "category": "animals",
+      "week": 1,
+      "box": 3
+    },
+    {
+      "hiragana": "さる",
+      "romaji": "saru",
+      "meaning": "monkey",
+      "category": "animals",
+      "week": 1,
+      "box": 3
+    },
+    {
+      "hiragana": "うし",
+      "romaji": "ushi",
+      "meaning": "cow",
+      "category": "animals",
+      "week": 1,
+      "box": 1
+    },
+    {
+      "hiragana": "とり",
+      "romaji": "tori",
+      "meaning": "bird",
+      "category": "animals",
+      "week": 1,
+      "box": 1
+    },
+    {
+      "hiragana": "か",
+      "romaji": "ka",
+      "meaning": "mosquito",
+      "category": "animals",
+      "week": 1,
+      "box": 1
+    },
+    {
+      "hiragana": "ほん",
+      "romaji": "hon",
+      "meaning": "book",
+      "category": "objects",
+      "week": 1,
+      "box": 1
+    },
+    {
+      "hiragana": "えんぴつ",
+      "romaji": "enpitsu",
+      "meaning": "pencil",
+      "category": "stationery",
+      "week": 1,
+      "box": 1
+    },
+    {
+      "hiragana": "ふで",
+      "romaji": "fude",
+      "meaning": "brush",
+      "category": "stationery",
+      "week": 1,
+      "box": 1
+    },
+    {
+      "hiragana": "けしゴム",
+      "romaji": "keshigomu",
+      "meaning": "eraser",
+      "category": "stationery",
+      "week": 1,
+      "box": 1
+    },
+    {
+      "hiragana": "ノート",
+      "romaji": "no-to",
+      "meaning": "note-book",
+      "category": "stationery",
+      "week": 1,
+      "box": 1
+    },
+    {
+      "hiragana": "きょうかしょ",
+      "romaji": "kyoukasho",
+      "meaning": "textbook",
+      "category": "stationery",
+      "week": 1,
+      "box": 1
+    },
+    {
+      "hiragana": "にち",
+      "romaji": "nichi",
+      "meaning": "day",
+      "category": "time",
+      "week": 1,
+      "box": 1
+    },
+    {
+      "hiragana": "げつ",
+      "romaji": "getsu",
+      "meaning": "month",
+      "category": "time",
+      "week": 1,
+      "box": 1
+    },
+    {
+      "hiragana": "しゅう",
+      "romaji": "shuu",
+      "meaning": "week",
+      "category": "time",
+      "week": 1,
+      "box": 1
+    },
+    {
+      "hiragana": "ねん",
+      "romaji": "nen",
+      "meaning": "year",
+      "category": "time",
+      "week": 1,
+      "box": 1
+    },
+    {
+      "hiragana": "ひと",
+      "romaji": "hito",
+      "meaning": "person",
+      "category": "people",
+      "week": 1,
+      "box": 3
+    },
+    {
+      "hiragana": "うち",
+      "romaji": "uchi",
+      "meaning": "home",
+      "category": "places",
+      "week": 1,
+      "box": 3
+    },
+    {
+      "hiragana": "みち",
+      "romaji": "michi",
+      "meaning": "road",
+      "category": "places",
+      "week": 1,
+      "box": 3
+    },
+    {
+      "hiragana": "まち",
+      "romaji": "machi",
+      "meaning": "city",
+      "category": "places",
+      "week": 1,
+      "box": 3
+    },
+    {
+      "hiragana": "むら",
+      "romaji": "mura",
+      "meaning": "village",
+      "category": "places",
+      "week": 1,
+      "box": 2
+    },
+    {
+      "hiragana": "ひ",
+      "romaji": "hi",
+      "meaning": "fire",
+      "category": "nature",
+      "week": 1,
+      "box": 3
+    },
+    {
+      "hiragana": "かわ",
+      "romaji": "kawa",
+      "meaning": "river",
+      "category": "nature",
+      "week": 1,
+      "box": 3
+    },
+    {
+      "hiragana": "やま",
+      "romaji": "yama",
+      "meaning": "mountain",
+      "category": "nature",
+      "week": 1,
+      "box": 3
+    },
+    {
+      "hiragana": "おとうさん",
+      "romaji": "otousan",
+      "meaning": "father",
+      "category": "family",
+      "week": 1,
+      "box": 3
+    },
+    {
+      "hiragana": "おかあさん",
+      "romaji": "okaasan",
+      "meaning": "mother",
+      "category": "family",
+      "week": 1,
+      "box": 3
+    },
+    {
+      "hiragana": "いもうと",
+      "romaji": "imouto",
+      "meaning": "younger sister",
+      "category": "family",
+      "week": 1,
+      "box": 3
+    },
+    {
+      "hiragana": "おとうと",
+      "romaji": "otouto",
+      "meaning": "younger brother",
+      "category": "family",
+      "week": 1,
+      "box": 3
+    },
+    {
+      "hiragana": "おじいさん",
+      "romaji": "ojiisan",
+      "meaning": "grand father",
+      "category": "family",
+      "week": 1,
+      "box": 3
+    },
+    {
+      "hiragana": "おばあさん",
+      "romaji": "obaasan",
+      "meaning": "grand mother",
+      "category": "family",
+      "week": 1,
+      "box": 2
+    },
+    {
+      "hiragana": "おじさん",
+      "romaji": "ojisan",
+      "meaning": "uncle",
+      "category": "family",
+      "week": 1,
+      "box": 3
+    },
+    {
+      "hiragana": "おばさん",
+      "romaji": "obasan",
+      "meaning": "aunt",
+      "category": "family",
+      "week": 1,
+      "box": 2
+    },
+    {
+      "hiragana": "わたし",
+      "romaji": "watashi",
+      "meaning": "I",
+      "category": "pronouns",
+      "week": 1,
+      "box": 3
+    },
+    {
+      "hiragana": "あなた",
+      "romaji": "anata",
+      "meaning": "you",
+      "category": "pronouns",
+      "week": 1,
+      "box": 3
+    },
+    {
+      "hiragana": "むすめ",
+      "romaji": "musume",
+      "meaning": "daughter",
+      "category": "family",
+      "week": 1,
+      "box": 3
+    },
+    {
+      "hiragana": "むすこ",
+      "romaji": "musuko",
+      "meaning": "son",
+      "category": "family",
+      "week": 1,
+      "box": 2
+    },
+    {
+      "hiragana": "がくせい",
+      "romaji": "gakusei",
+      "meaning": "student",
+      "category": "profession",
+      "week": 1,
+      "box": 3
+    },
+    {
+      "hiragana": "せんせい",
+      "romaji": "sensei",
+      "meaning": "teacher",
+      "category": "profession",
+      "week": 1,
+      "box": 3
+    },
+    {
+      "hiragana": "しゅふ",
+      "romaji": "shufu",
+      "meaning": "housewife",
+      "category": "profession",
+      "week": 1,
+      "box": 3
+    },
+    {
+      "hiragana": "べんごし",
+      "romaji": "bengoshi",
+      "meaning": "lawyer",
+      "category": "profession",
+      "week": 1,
+      "box": 3
+    },
+    {
+      "hiragana": "ぎし",
+      "romaji": "gishi",
+      "meaning": "engineer",
+      "category": "profession",
+      "week": 1,
+      "box": 2
+    },
+    {
+      "hiragana": "きょうし",
+      "romaji": "kyoushi",
+      "meaning": "teacher",
+      "category": "profession",
+      "week": 1,
+      "box": 2
+    },
+    {
+      "hiragana": "ひしょ",
+      "romaji": "hisho",
+      "meaning": "secretary",
+      "category": "profession",
+      "week": 1,
+      "box": 1
+    },
+    {
+      "hiragana": "ちゅうごくじん",
+      "romaji": "Chuugoku-jin",
+      "meaning": "Chinese",
+      "category": "nationality",
+      "week": 1,
+      "box": 3
+    },
+    {
+      "hiragana": "にほんじん",
+      "romaji": "Nihon-jin",
+      "meaning": "Japanese",
+      "category": "nationality",
+      "week": 1,
+      "box": 3
+    },
+    {
+      "hiragana": "インドじん",
+      "romaji": "Indo-jin",
+      "meaning": "Indian",
+      "category": "nationality",
+      "week": 1,
+      "box": 3
+    },
+    {
+      "hiragana": "イタリヤじん",
+      "romaji": "Itaria-jin",
+      "meaning": "Italian",
+      "category": "nationality",
+      "week": 1,
+      "box": 3
+    },
+    {
+      "hiragana": "かばん",
+      "romaji": "kaban",
+      "meaning": "bag",
+      "category": "objects",
+      "week": 1,
+      "box": 3
+    },
+    {
+      "hiragana": "さいふ",
+      "romaji": "saifu",
+      "meaning": "purse",
+      "category": "objects",
+      "week": 1,
+      "box": 2
+    },
+    {
+      "hiragana": "とけい",
+      "romaji": "tokei",
+      "meaning": "watch",
+      "category": "objects",
+      "week": 1,
+      "box": 2
+    },
+    {
+      "hiragana": "けいさんき",
+      "romaji": "keisanki",
+      "meaning": "calculator",
+      "category": "electronics",
+      "week": 1,
+      "box": 2
+    },
+    {
+      "hiragana": "せんぷき",
+      "romaji": "senpuki",
+      "meaning": "fan",
+      "category": "electronics",
+      "week": 1,
+      "box": 1
+    },
+    {
+      "hiragana": "せんたくき",
+      "romaji": "sentakuki",
+      "meaning": "washing machine",
+      "category": "electronics",
+      "week": 1,
+      "box": 1
+    },
+    {
+      "hiragana": "くるま",
+      "romaji": "kuruma",
+      "meaning": "car",
+      "category": "vehicles",
+      "week": 1,
+      "box": 2
+    },
+    {
+      "hiragana": "せんもん",
+      "romaji": "senmon",
+      "meaning": "specialization",
+      "category": "education",
+      "week": 1,
+      "box": 3
+    },
+    {
+      "hiragana": "しゅみ",
+      "romaji": "shumi",
+      "meaning": "hobby",
+      "category": "general",
+      "week": 1,
+      "box": 1
+    },
+    {
+      "hiragana": "ぶつりがく",
+      "romaji": "butsuri-gaku",
+      "meaning": "physics",
+      "category": "academic_fields",
+      "week": 1,
+      "box": 3
+    },
+    {
+      "hiragana": "かがく",
+      "romaji": "kagaku",
+      "meaning": "chemistry",
+      "category": "academic_fields",
+      "week": 1,
+      "box": 2
+    },
+    {
+      "hiragana": "すうがく",
+      "romaji": "suugaku",
+      "meaning": "mathematics",
+      "category": "academic_fields",
+      "week": 1,
+      "box": 2
+    },
+    {
+      "hiragana": "ぶんがく",
+      "romaji": "bungaku",
+      "meaning": "literature",
+      "category": "academic_fields",
+      "week": 1,
+      "box": 2
+    },
+    {
+      "hiragana": "いがく",
+      "romaji": "igaku",
+      "meaning": "medicine",
+      "category": "academic_fields",
+      "week": 1,
+      "box": 1
+    },
+    {
+      "hiragana": "ほうがく",
+      "romaji": "hougaku",
+      "meaning": "law",
+      "category": "academic_fields",
+      "week": 1,
+      "box": 2
+    },
+    {
+      "hiragana": "けいざいがく",
+      "romaji": "keizaigaku",
+      "meaning": "economics",
+      "category": "academic_fields",
+      "week": 1,
+      "box": 2
+    },
+    {
+      "hiragana": "ちりがく",
+      "romaji": "chirigaku",
+      "meaning": "geography",
+      "category": "academic_fields",
+      "week": 1,
+      "box": 2
+    },
+    {
+      "hiragana": "いもうと",
+      "romaji": "imouto",
+      "meaning": "younger sister",
+      "category": "family",
+      "week": 2,
+      "box": 1
+    },
+    {
+      "hiragana": "おとうと",
+      "romaji": "otoutou",
+      "meaning": "younger brother",
+      "category": "family",
+      "week": 2,
+      "box": 1
+    },
+    {
+      "hiragana": "あにい",
+      "romaji": "anii",
+      "meaning": "elder brother",
+      "category": "family",
+      "week": 2,
+      "box": 1
+    },
+    {
+      "hiragana": "あねえ",
+      "romaji": "anee",
+      "meaning": "elder sister",
+      "category": "family",
+      "week": 2,
+      "box": 2
+    },
+    {
+      "hiragana": "こども",
+      "romaji": "kodomo",
+      "meaning": "child",
+      "category": "family",
+      "week": 2,
+      "box": 3
+    },
+    {
+      "hiragana": "あかちゃん",
+      "romaji": "akachan",
+      "meaning": "baby",
+      "category": "family",
+      "week": 2,
+      "box": 2
+    },
+    {
+      "hiragana": "おばさん",
+      "romaji": "obasan",
+      "meaning": "aunt",
+      "category": "family",
+      "week": 2,
+      "box": 1
+    },
+    {
+      "hiragana": "おじさん",
+      "romaji": "ojisan",
+      "meaning": "uncle",
+      "category": "family",
+      "week": 2,
+      "box": 1
+    },
+    {
+      "hiragana": "おばあさん",
+      "romaji": "obaasan",
+      "meaning": "grandmother",
+      "category": "family",
+      "week": 2,
+      "box": 1
+    },
+    {
+      "hiragana": "おじいさん",
+      "romaji": "ojiisan",
+      "meaning": "grandfather",
+      "category": "family",
+      "week": 2,
+      "box": 1
+    },
+    {
+      "hiragana": "おい",
+      "romaji": "oi",
+      "meaning": "nephew",
+      "category": "family",
+      "week": 2,
+      "box": 2
+    },
+    {
+      "hiragana": "めい",
+      "romaji": "mei",
+      "meaning": "niece",
+      "category": "family",
+      "week": 2,
+      "box": 1
+    },
+    {
+      "hiragana": "まご",
+      "romaji": "mago",
+      "meaning": "grandchild",
+      "category": "family",
+      "week": 2,
+      "box": 2
+    },
+    {
+      "hiragana": "ともだち",
+      "romaji": "tomodachi",
+      "meaning": "friend",
+      "category": "social",
+      "week": 2,
+      "box": 3
+    },
+    {
+      "hiragana": "むすこ",
+      "romaji": "musuko",
+      "meaning": "son",
+      "category": "family",
+      "week": 2,
+      "box": 1
+    },
+    {
+      "hiragana": "むすめ",
+      "romaji": "musume",
+      "meaning": "daughter",
+      "category": "family",
+      "week": 2,
+      "box": 1
+    },
+    {
+      "hiragana": "にょうぼう",
+      "romaji": "nyoubou",
+      "meaning": "wife",
+      "category": "family",
+      "week": 2,
+      "box": 1
+    },
+    {
+      "hiragana": "よめ",
+      "romaji": "yome",
+      "meaning": "bride",
+      "category": "family",
+      "week": 2,
+      "box": 3
+    },
+    {
+      "hiragana": "じっか",
+      "romaji": "jikka",
+      "meaning": "hometown",
+      "category": "places",
+      "week": 2,
+      "box": 2
+    },
+    {
+      "hiragana": "これ",
+      "romaji": "kore",
+      "meaning": "this",
+      "category": "pronouns",
+      "week": 2,
+      "box": 3
+    },
+    {
+      "hiragana": "それ",
+      "romaji": "sore",
+      "meaning": "that",
+      "category": "pronouns",
+      "week": 2,
+      "box": 3
+    },
+    {
+      "hiragana": "あれ",
+      "romaji": "are",
+      "meaning": "that",
+      "category": "pronouns",
+      "week": 2,
+      "box": 3
+    },
+    {
+      "hiragana": "だれ",
+      "romaji": "dare",
+      "meaning": "who",
+      "category": "pronouns",
+      "week": 2,
+      "box": 2
+    },
+    {
+      "hiragana": "この",
+      "romaji": "kono",
+      "meaning": "this~, these~",
+      "category": "pronouns",
+      "week": 2,
+      "box": 1
+    },
+    {
+      "hiragana": "その",
+      "romaji": "sono",
+      "meaning": "that~, those~",
+      "category": "pronouns",
+      "week": 2,
+      "box": 2
+    },
+    {
+      "hiragana": "あの",
+      "romaji": "ano",
+      "meaning": "that~, those~, the",
+      "category": "pronouns",
+      "week": 2,
+      "box": 1
+    },
+    {
+      "hiragana": "どの",
+      "romaji": "dono",
+      "meaning": "which?",
+      "category": "pronouns",
+      "week": 2,
+      "box": 2
+    },
+    {
+      "hiragana": "なん",
+      "romaji": "nan",
+      "meaning": "what?",
+      "category": "pronouns",
+      "week": 2,
+      "box": 3
+    },
+    {
+      "hiragana": "じしょ",
+      "romaji": "jisho",
+      "meaning": "dictionary",
+      "category": "objects",
+      "week": 2,
+      "box": 2
+    },
+    {
+      "hiragana": "じびき",
+      "romaji": "jibiki",
+      "meaning": "dictionary",
+      "category": "objects",
+      "week": 2,
+      "box": 2
+    },
+    {
+      "hiragana": "しょうせつ",
+      "romaji": "shousetsu",
+      "meaning": "novel",
+      "category": "literature",
+      "week": 2,
+      "box": 1
+    },
+    {
+      "hiragana": "ざっし",
+      "romaji": "zasshi",
+      "meaning": "magazine",
+      "category": "literature",
+      "week": 2,
+      "box": 3
+    },
+    {
+      "hiragana": "まんが",
+      "romaji": "manga",
+      "meaning": "cartoon, comic",
+      "category": "entertainment",
+      "week": 2,
+      "box": 3
+    },
+    {
+      "hiragana": "にく",
+      "romaji": "niku",
+      "meaning": "meat",
+      "category": "food",
+      "week": 2,
+      "box": 2
+    },
+    {
+      "hiragana": "ぶたにく",
+      "romaji": "butaniku",
+      "meaning": "pork",
+      "category": "food",
+      "week": 2,
+      "box": 1
+    },
+    {
+      "hiragana": "とりにく",
+      "romaji": "toriniku",
+      "meaning": "chicken meat",
+      "category": "food",
+      "week": 2,
+      "box": 3
+    },
+    {
+      "hiragana": "ゆうびんきょく",
+      "romaji": "yuubinkyoku",
+      "meaning": "post-office",
+      "category": "places",
+      "week": 2,
+      "box": 1
+    },
+    {
+      "hiragana": "かいしゃ",
+      "romaji": "kaisha",
+      "meaning": "company",
+      "category": "work",
+      "week": 2,
+      "box": 3
+    },
+    {
+      "hiragana": "ぎんこう",
+      "romaji": "ginkou",
+      "meaning": "bank",
+      "category": "places",
+      "week": 2,
+      "box": 2
+    },
+    {
+      "hiragana": "がっこう",
+      "romaji": "gakkou",
+      "meaning": "school",
+      "category": "education",
+      "week": 2,
+      "box": 2
+    },
+    {
+      "hiragana": "だいがく",
+      "romaji": "daigaku",
+      "meaning": "university",
+      "category": "education",
+      "week": 2,
+      "box": 3
+    },
+    {
+      "hiragana": "ひゃく",
+      "romaji": "Hyaku",
+      "meaning": "hundred (100)",
+      "category": "numbers",
+      "week": 2,
+      "box": 3
+    },
+    {
+      "hiragana": "せん",
+      "romaji": "sen",
+      "meaning": "thousand (1000)",
+      "category": "numbers",
+      "week": 2,
+      "box": 1
+    },
+    {
+      "hiragana": "まん",
+      "romaji": "zen",
+      "meaning": "ten thousand (10000)",
+      "category": "numbers",
+      "week": 2,
+      "box": 2
+    },
+    {
+      "hiragana": "いくら",
+      "romaji": "ikura",
+      "meaning": "how much?",
+      "category": "question",
+      "week": 2,
+      "box": 3
+    },
+    {
+      "hiragana": "えん",
+      "romaji": "en",
+      "meaning": "yen (Japanese monetary unit)",
+      "category": "currency",
+      "week": 2,
+      "box": 1
+    },
+    {
+      "hiragana": "かさ",
+      "romaji": "kasa",
+      "meaning": "umbrella",
+      "category": "objects",
+      "week": 2,
+      "box": 3
+    },
+    {
+      "hiragana": "くつ",
+      "romaji": "kutsu",
+      "meaning": "shoes",
+      "category": "clothing",
+      "week": 2,
+      "box": 2
+    },
+    {
+      "hiragana": "くつした",
+      "romaji": "kutsushita",
+      "meaning": "socks",
+      "category": "clothing",
+      "week": 2,
+      "box": 1
+    },
+    {
+      "hiragana": "スカート",
+      "romaji": "suka-to",
+      "meaning": "skirt",
+      "category": "clothing",
+      "week": 2,
+      "box": 2
+    },
+    {
+      "hiragana": "シャツ",
+      "romaji": "shatsu",
+      "meaning": "shirt",
+      "category": "clothing",
+      "week": 2,
+      "box": 3
+    },
+    {
+      "hiragana": "ズボン",
+      "romaji": "zubon",
+      "meaning": "trousers",
+      "category": "clothing",
+      "week": 2,
+      "box": 1
+    },
+    {
+      "hiragana": "もめん",
+      "romaji": "momen",
+      "meaning": "cotton",
+      "category": "material",
+      "week": 2,
+      "box": 2
+    },
+    {
+      "hiragana": "ナイロン",
+      "romaji": "nairon",
+      "meaning": "nylon",
+      "category": "material",
+      "week": 2,
+      "box": 3
+    },
+    {
+      "hiragana": "しゅみ",
+      "romaji": "shumi",
+      "meaning": "hobby",
+      "category": "general",
+      "week": 2,
+      "box": 1
+    },
+    {
+      "hiragana": "いま",
+      "romaji": "ima",
+      "meaning": "now",
+      "category": "time",
+      "week": 2,
+      "box": 3
+    },
+    {
+      "hiragana": "ごぜん",
+      "romaji": "gozen",
+      "meaning": "a.m.",
+      "category": "time",
+      "week": 2,
+      "box": 1
+    },
+    {
+      "hiragana": "ごご",
+      "romaji": "gogo",
+      "meaning": "p.m.",
+      "category": "time",
+      "week": 2,
+      "box": 3
+    },
+    {
+      "hiragana": "から",
+      "romaji": "kara",
+      "meaning": "from",
+      "category": "grammar",
+      "week": 2,
+      "box": 1
+    },
+    {
+      "hiragana": "まで",
+      "romaji": "made",
+      "meaning": "to/until",
+      "category": "grammar",
+      "week": 2,
+      "box": 1
+    },
+    {
+      "hiragana": "じかん",
+      "romaji": "jikan",
+      "meaning": "time",
+      "category": "time",
+      "week": 3,
+      "box": 3
+    },
+    {
+      "hiragana": "ぷん",
+      "romaji": "pun",
+      "meaning": "minute",
+      "category": "time",
+      "week": 3,
+      "box": 1
+    },
+    {
+      "hiragana": "はん",
+      "romaji": "han",
+      "meaning": "half",
+      "category": "time",
+      "week": 3,
+      "box": 1
+    },
+    {
+      "hiragana": "やすみ",
+      "romaji": "yasumi",
+      "meaning": "holiday",
+      "category": "time",
+      "week": 3,
+      "box": 1
+    },
+    {
+      "hiragana": "ひるやすみ",
+      "romaji": "hiru yasumi",
+      "meaning": "lunch break",
+      "category": "time",
+      "week": 3,
+      "box": 1
+    },
+    {
+      "hiragana": "なつやすみ",
+      "romaji": "natsu yasumi",
+      "meaning": "summer holidays",
+      "category": "time",
+      "week": 3,
+      "box": 1
+    },
+    {
+      "hiragana": "ふゆやすみ",
+      "romaji": "fuyu yasumi",
+      "meaning": "winter holidays",
+      "category": "time",
+      "week": 3,
+      "box": 1
+    },
+    {
+      "hiragana": "はっぴょう",
+      "romaji": "happyou",
+      "meaning": "presentation",
+      "category": "education",
+      "week": 3,
+      "box": 1
+    },
+    {
+      "hiragana": "こうぎ",
+      "romaji": "kougi",
+      "meaning": "lecture",
+      "category": "education",
+      "week": 3,
+      "box": 1
+    },
+    {
+      "hiragana": "じゅぎょう",
+      "romaji": "jugyou",
+      "meaning": "lesson",
+      "category": "education",
+      "week": 3,
+      "box": 1
+    },
+    {
+      "hiragana": "かいぎしつ",
+      "romaji": "kaigishitsu",
+      "meaning": "meeting room",
+      "category": "places",
+      "week": 3,
+      "box": 1
+    },
+    {
+      "hiragana": "きょうしつ",
+      "romaji": "kyoushitsu",
+      "meaning": "classroom",
+      "category": "places",
+      "week": 3,
+      "box": 1
+    },
+    {
+      "hiragana": "しょくどう",
+      "romaji": "shokudou",
+      "meaning": "dining hall",
+      "category": "places",
+      "week": 3,
+      "box": 1
+    },
+    {
+      "hiragana": "うんどうかい",
+      "romaji": "undoukai",
+      "meaning": "athletic meet",
+      "category": "events",
+      "week": 3,
+      "box": 1
+    },
+    {
+      "hiragana": "ここ",
+      "romaji": "koko",
+      "meaning": "here",
+      "category": "pronouns",
+      "week": 3,
+      "box": 3
+    },
+    {
+      "hiragana": "そこ",
+      "romaji": "soko",
+      "meaning": "there",
+      "category": "pronouns",
+      "week": 3,
+      "box": 1
+    },
+    {
+      "hiragana": "あそこ",
+      "romaji": "asoko",
+      "meaning": "over there",
+      "category": "pronouns",
+      "week": 3,
+      "box": 1
+    },
+    {
+      "hiragana": "どこ",
+      "romaji": "doko",
+      "meaning": "where",
+      "category": "pronouns",
+      "week": 3,
+      "box": 3
+    },
+    {
+      "hiragana": "きょう",
+      "romaji": "kyou",
+      "meaning": "today",
+      "category": "time",
+      "week": 3,
+      "box": 1
+    },
+    {
+      "hiragana": "あした",
+      "romaji": "ashita",
+      "meaning": "tomorrow",
+      "category": "time",
+      "week": 3,
+      "box": 3
+    },
+    {
+      "hiragana": "あさって",
+      "romaji": "asatte",
+      "meaning": "day after tomorrow",
+      "category": "time",
+      "week": 3,
+      "box": 1
+    },
+    {
+      "hiragana": "きのう",
+      "romaji": "kinou",
+      "meaning": "yesterday",
+      "category": "time",
+      "week": 3,
+      "box": 1
+    },
+    {
+      "hiragana": "おととい",
+      "romaji": "ototoi",
+      "meaning": "day before yesterday",
+      "category": "time",
+      "week": 3,
+      "box": 1
+    },
+    {
+      "hiragana": "まいにち",
+      "romaji": "mainichi",
+      "meaning": "everyday",
+      "category": "time",
+      "week": 3,
+      "box": 1
+    },
+    {
+      "hiragana": "でんわ",
+      "romaji": "denwa",
+      "meaning": "telephone",
+      "category": "communication",
+      "week": 3,
+      "box": 1
+    },
+    {
+      "hiragana": "でんわばんごう",
+      "romaji": "denwa bangou",
+      "meaning": "telephone number",
+      "category": "communication",
+      "week": 3,
+      "box": 1
+    },
+    {
+      "hiragana": "でんしゃ",
+      "romaji": "densha",
+      "meaning": "train",
+      "category": "transportation",
+      "week": 3,
+      "box": 1
+    },
+    {
+      "hiragana": "しんかんせん",
+      "romaji": "shinkansen",
+      "meaning": "bullet train",
+      "category": "transportation",
+      "week": 3,
+      "box": 1
+    },
+    {
+      "hiragana": "ちかてつ",
+      "romaji": "chikatetsu",
+      "meaning": "subway",
+      "category": "transportation",
+      "week": 3,
+      "box": 1
+    },
+    {
+      "hiragana": "バス",
+      "romaji": "basu",
+      "meaning": "bus",
+      "category": "transportation",
+      "week": 3,
+      "box": 1
+    },
+    {
+      "hiragana": "タクシー",
+      "romaji": "takushi-",
+      "meaning": "taxi",
+      "category": "transportation",
+      "week": 3,
+      "box": 1
+    },
+    {
+      "hiragana": "ひこうき",
+      "romaji": "hikouki",
+      "meaning": "airplane",
+      "category": "transportation",
+      "week": 3,
+      "box": 1
+    },
+    {
+      "hiragana": "らいげつ",
+      "romaji": "raigetsu",
+      "meaning": "next month",
+      "category": "time",
+      "week": 3,
+      "box": 1
+    },
+    {
+      "hiragana": "こんげつ",
+      "romaji": "kongetsu",
+      "meaning": "this month",
+      "category": "time",
+      "week": 3,
+      "box": 1
+    },
+    {
+      "hiragana": "さらいげつ",
+      "romaji": "saraigetsu",
+      "meaning": "month after next",
+      "category": "time",
+      "week": 3,
+      "box": 1
+    },
+    {
+      "hiragana": "いつ",
+      "romaji": "itsu",
+      "meaning": "when",
+      "category": "pronouns",
+      "week": 3,
+      "box": 1
+    },
+    {
+      "hiragana": "おきます",
+      "romaji": "okimasu",
+      "meaning": "to get up",
+      "category": "verbs",
+      "week": 3,
+      "box": 1
+    },
+    {
+      "hiragana": "ねます",
+      "romaji": "nemasu",
+      "meaning": "to sleep",
+      "category": "verbs",
+      "week": 3,
+      "box": 1
+    },
+    {
+      "hiragana": "たべます",
+      "romaji": "tabemasu",
+      "meaning": "to eat",
+      "category": "verbs",
+      "week": 3,
+      "box": 1
+    },
+    {
+      "hiragana": "のみます",
+      "romaji": "nomimasu",
+      "meaning": "to drink",
+      "category": "verbs",
+      "week": 3,
+      "box": 1
+    },
+    {
+      "hiragana": "いきます",
+      "romaji": "ikimasu",
+      "meaning": "to go",
+      "category": "verbs",
+      "week": 3,
+      "box": 1
+    },
+    {
+      "hiragana": "きます",
+      "romaji": "kimasu",
+      "meaning": "to come",
+      "category": "verbs",
+      "week": 3,
+      "box": 1
+    },
+    {
+      "hiragana": "かえります",
+      "romaji": "kaerimasu",
+      "meaning": "to return (home, hometown, one's own country)",
+      "category": "verbs",
+      "week": 3,
+      "box": 1
+    },
+    {
+      "hiragana": "します",
+      "romaji": "shimasu",
+      "meaning": "to do",
+      "category": "verbs",
+      "week": 3,
+      "box": 1
+    },
+    {
+      "hiragana": "かいます",
+      "romaji": "kaimasu",
+      "meaning": "to buy",
+      "category": "verbs",
+      "week": 3,
+      "box": 1
+    },
+    {
+      "hiragana": "きます",
+      "romaji": "kimasu",
+      "meaning": "to wear",
+      "category": "verbs",
+      "week": 3,
+      "box": 1
+    },
+    {
+      "hiragana": "つくります",
+      "romaji": "tsukurimasu",
+      "meaning": "to make",
+      "category": "verbs",
+      "week": 3,
+      "box": 1
+    },
+    {
+      "hiragana": "よみます",
+      "romaji": "yomimasu",
+      "meaning": "to read",
+      "category": "verbs",
+      "week": 3,
+      "box": 1
+    },
+    {
+      "hiragana": "はたらきます",
+      "romaji": "hatarakimasu",
+      "meaning": "to work",
+      "category": "verbs",
+      "week": 3,
+      "box": 1
+    },
+    {
+      "hiragana": "べんきょうします",
+      "romaji": "benkyoushimasu",
+      "meaning": "to study",
+      "category": "verbs",
+      "week": 3,
+      "box": 1
+    },
+    {
+      "hiragana": "もどります",
+      "romaji": "modorimasu",
+      "meaning": "to return",
+      "category": "verbs",
+      "week": 3,
+      "box": 1
+    },
+    {
+      "hiragana": "はなします",
+      "romaji": "hanashimasu",
+      "meaning": "to talk",
+      "category": "verbs",
+      "week": 3,
+      "box": 1
+    },
+    {
+      "hiragana": "あそびます",
+      "romaji": "asobimasu",
+      "meaning": "to play",
+      "category": "verbs",
+      "week": 3,
+      "box": 1
+    },
+    {
+      "hiragana": "おんがく",
+      "romaji": "ongaku",
+      "meaning": "music",
+      "category": "entertainment",
+      "week": 3,
+      "box": 1
+    },
+    {
+      "hiragana": "テレビ",
+      "romaji": "terebi",
+      "meaning": "television",
+      "category": "entertainment",
+      "week": 3,
+      "box": 1
+    },
+    {
+      "hiragana": "しんぶん",
+      "romaji": "shinbun",
+      "meaning": "newspaper",
+      "category": "media",
+      "week": 3,
+      "box": 1
+    },
+    {
+      "hiragana": "しゅくだい",
+      "romaji": "shukudai",
+      "meaning": "homework",
+      "category": "education",
+      "week": 3,
+      "box": 1
+    },
+    {
+      "hiragana": "となり",
+      "romaji": "tonari",
+      "meaning": "near",
+      "category": "location",
+      "week": 4,
+      "box": 1
+    },
+    {
+      "hiragana": "みぎ",
+      "romaji": "migi",
+      "meaning": "right",
+      "category": "direction",
+      "week": 4,
+      "box": 1
+    },
+    {
+      "hiragana": "ひだり",
+      "romaji": "hidari",
+      "meaning": "left",
+      "category": "direction",
+      "week": 4,
+      "box": 1
+    },
+    {
+      "hiragana": "まえ",
+      "romaji": "mae",
+      "meaning": "front",
+      "category": "location",
+      "week": 4,
+      "box": 1
+    },
+    {
+      "hiragana": "うしろ",
+      "romaji": "ushiro",
+      "meaning": "behind",
+      "category": "location",
+      "week": 4,
+      "box": 1
+    },
+    {
+      "hiragana": "うえ",
+      "romaji": "ue",
+      "meaning": "above",
+      "category": "location",
+      "week": 4,
+      "box": 1
+    },
+    {
+      "hiragana": "した",
+      "romaji": "shita",
+      "meaning": "down",
+      "category": "location",
+      "week": 4,
+      "box": 1
+    },
+    {
+      "hiragana": "そば",
+      "romaji": "soba",
+      "meaning": "near",
+      "category": "location",
+      "week": 4,
+      "box": 1
+    },
+    {
+      "hiragana": "ほんや",
+      "romaji": "honya",
+      "meaning": "bookshop",
+      "category": "places",
+      "week": 4,
+      "box": 1
+    },
+    {
+      "hiragana": "はなや",
+      "romaji": "hanaya",
+      "meaning": "flower shop",
+      "category": "places",
+      "week": 4,
+      "box": 1
+    },
+    {
+      "hiragana": "パンや",
+      "romaji": "panya",
+      "meaning": "bakery",
+      "category": "places",
+      "week": 4,
+      "box": 1
+    },
+    {
+      "hiragana": "こうえん",
+      "romaji": "kouen",
+      "meaning": "park",
+      "category": "places",
+      "week": 4,
+      "box": 1
+    },
+    {
+      "hiragana": "あります",
+      "romaji": "arimasu",
+      "meaning": "to be, to exist",
+      "category": "verbs",
+      "week": 4,
+      "box": 1
+    },
+    {
+      "hiragana": "じてんしゃ",
+      "romaji": "jitensha",
+      "meaning": "bicycle",
+      "category": "transportation",
+      "week": 4,
+      "box": 1
+    },
+    {
+      "hiragana": "おもちゃ",
+      "romaji": "omocha",
+      "meaning": "toy",
+      "category": "objects",
+      "week": 4,
+      "box": 1
+    },
+    {
+      "hiragana": "いす",
+      "romaji": "isu",
+      "meaning": "chair",
+      "category": "furniture",
+      "week": 4,
+      "box": 1
+    },
+    {
+      "hiragana": "つくえ",
+      "romaji": "tsukue",
+      "meaning": "table",
+      "category": "furniture",
+      "week": 4,
+      "box": 1
+    },
+    {
+      "hiragana": "ほんだな",
+      "romaji": "hondana",
+      "meaning": "book shelf",
+      "category": "furniture",
+      "week": 4,
+      "box": 1
+    },
+    {
+      "hiragana": "かいだん",
+      "romaji": "kaidan",
+      "meaning": "stairs",
+      "category": "places",
+      "week": 4,
+      "box": 1
+    },
+    {
+      "hiragana": "びょういん",
+      "romaji": "byouin",
+      "meaning": "hospital",
+      "category": "places",
+      "week": 4,
+      "box": 1
+    },
+    {
+      "hiragana": "はさみ",
+      "romaji": "hasami",
+      "meaning": "scissor",
+      "category": "objects",
+      "week": 4,
+      "box": 1
+    },
+    {
+      "hiragana": "かみ",
+      "romaji": "kami",
+      "meaning": "paper",
+      "category": "objects",
+      "week": 4,
+      "box": 1
+    },
+    {
+      "hiragana": "はり",
+      "romaji": "hari",
+      "meaning": "needle",
+      "category": "objects",
+      "week": 4,
+      "box": 1
+    },
+    {
+      "hiragana": "いと",
+      "romaji": "ito",
+      "meaning": "thread",
+      "category": "objects",
+      "week": 4,
+      "box": 1
+    },
+    {
+      "hiragana": "ケーキ",
+      "romaji": "ke-ki",
+      "meaning": "cake",
+      "category": "food",
+      "week": 4,
+      "box": 1
+    },
+    {
+      "hiragana": "ベッド",
+      "romaji": "beddo",
+      "meaning": "bed",
+      "category": "furniture",
+      "week": 4,
+      "box": 1
+    },
+    {
+      "hiragana": "ろうそく",
+      "romaji": "rousoku",
+      "meaning": "candle",
+      "category": "objects",
+      "week": 4,
+      "box": 1
+    },
+    {
+      "hiragana": "しけん",
+      "romaji": "shiken",
+      "meaning": "exam",
+      "category": "education",
+      "week": 4,
+      "box": 1
+    },
+    {
+      "hiragana": "けっこん",
+      "romaji": "kekkon",
+      "meaning": "marriage",
+      "category": "life_events",
+      "week": 4,
+      "box": 1
+    },
+    {
+      "hiragana": "けっこんきねんび",
+      "romaji": "kekkon kinen-bi",
+      "meaning": "marriage anniversary",
+      "category": "life_events",
+      "week": 4,
+      "box": 1
+    },
+    {
+      "hiragana": "にゅうがくしけん",
+      "romaji": "nyuu-gaku-shiken",
+      "meaning": "entrance examination",
+      "category": "education",
+      "week": 4,
+      "box": 1
+    },
+    {
+      "hiragana": "てんらんかい",
+      "romaji": "tanrankai",
+      "meaning": "exhibition",
+      "category": "events",
+      "week": 4,
+      "box": 1
+    },
+    {
+      "hiragana": "はがき",
+      "romaji": "hagaki",
+      "meaning": "postcard",
+      "category": "communication",
+      "week": 4,
+      "box": 1
+    },
+    {
+      "hiragana": "コンサート",
+      "romaji": "consato",
+      "meaning": "concert",
+      "category": "entertainment",
+      "week": 4,
+      "box": 1
+    },
+    {
+      "hiragana": "きっさてん",
+      "romaji": "kissaten",
+      "meaning": "coffee shop",
+      "category": "places",
+      "week": 4,
+      "box": 1
+    },
+    {
+      "hiragana": "としょかん",
+      "romaji": "toshokan",
+      "meaning": "library",
+      "category": "places",
+      "week": 4,
+      "box": 1
+    },
+    {
+      "hiragana": "きょうしつ",
+      "romaji": "kyoushitsu",
+      "meaning": "classroom",
+      "category": "places",
+      "week": 4,
+      "box": 1
+    },
+    {
+      "hiragana": "かいぎしつ",
+      "romaji": "kaigishitsu",
+      "meaning": "meeting room",
+      "category": "places",
+      "week": 4,
+      "box": 1
+    },
+    {
+      "hiragana": "ひとり",
+      "romaji": "hitori",
+      "meaning": "one person, alone",
+      "category": "people",
+      "week": 4,
+      "box": 1
+    },
+    {
+      "hiragana": "ふたり",
+      "romaji": "futari",
+      "meaning": "two persons",
+      "category": "people",
+      "week": 4,
+      "box": 1
+    },
+    {
+      "hiragana": "だれえも",
+      "romaji": "daremo",
+      "meaning": "anyone",
+      "category": "pronouns",
+      "week": 4,
+      "box": 1
+    },
+    {
+      "hiragana": "しゃしん",
+      "romaji": "shashin",
+      "meaning": "photograph",
+      "category": "objects",
+      "week": 4,
+      "box": 1
+    },
+    {
+      "hiragana": "げんき",
+      "romaji": "genki",
+      "meaning": "healthy",
+      "category": "adjectives",
+      "week": 4,
+      "box": 1
+    },
+    {
+      "hiragana": "やすみ",
+      "romaji": "yasumi",
+      "meaning": "holiday",
+      "category": "time",
+      "week": 4,
+      "box": 1
+    },
+    {
+      "hiragana": "だいじょうぶです",
+      "romaji": "daijoubu desu",
+      "meaning": "It is alright",
+      "category": "phrases",
+      "week": 4,
+      "box": 1
+    },
+    {
+      "hiragana": "テニス",
+      "romaji": "tenisu",
+      "meaning": "tennis",
+      "category": "sports",
+      "week": 4,
+      "box": 1
+    },
+    {
+      "hiragana": "やっきゅう",
+      "romaji": "yakyuu",
+      "meaning": "baseball",
+      "category": "sports",
+      "week": 4,
+      "box": 1
+    },
+    {
+      "hiragana": "サッカー",
+      "romaji": "sakka-",
+      "meaning": "soccer",
+      "category": "sports",
+      "week": 4,
+      "box": 1
+    },
+    {
+      "hiragana": "やまのぼり",
+      "romaji": "yamanobori",
+      "meaning": "mountain climbing",
+      "category": "activities",
+      "week": 4,
+      "box": 1
+    },
+    {
+      "hiragana": "りょこう",
+      "romaji": "ryokou",
+      "meaning": "trip",
+      "category": "activities",
+      "week": 4,
+      "box": 1
+    },
+    {
+      "hiragana": "えいが",
+      "romaji": "eiga",
+      "meaning": "movie",
+      "category": "entertainment",
+      "week": 4,
+      "box": 1
+    },
+    {
+      "hiragana": "びじゅつかん",
+      "romaji": "bijutsu-kan",
+      "meaning": "art gallery",
+      "category": "places",
+      "week": 4,
+      "box": 1
+    },
+    {
+      "hiragana": "こうえん",
+      "romaji": "kouen",
+      "meaning": "park",
+      "category": "places",
+      "week": 4,
+      "box": 1
+    },
+    {
+      "hiragana": "しゅっちょう",
+      "romaji": "shucchou",
+      "meaning": "business trip",
+      "category": "work",
+      "week": 4,
+      "box": 1
+    },
+    {
+      "hiragana": "ピクニック",
+      "romaji": "pikunikku",
+      "meaning": "picnic",
+      "category": "activities",
+      "week": 4,
+      "box": 1
+    },
+    {
+      "hiragana": "うんどうかい",
+      "romaji": "undoukai",
+      "meaning": "athletic meet",
+      "category": "events",
+      "week": 4,
+      "box": 1
+    },
+    {
+      "hiragana": "パン",
+      "romaji": "pan",
+      "meaning": "bread",
+      "category": "food",
+      "week": 4,
+      "box": 1
+    },
+    {
+      "hiragana": "たまご",
+      "romaji": "tamago",
+      "meaning": "egg",
+      "category": "food",
+      "week": 4,
+      "box": 1
+    },
+    {
+      "hiragana": "てんぷら",
+      "romaji": "tempura",
+      "meaning": "tempura (dish)",
+      "category": "food",
+      "week": 4,
+      "box": 1
+    },
+    {
+      "hiragana": "すし",
+      "romaji": "sushi",
+      "meaning": "sushi (dish)",
+      "category": "food",
+      "week": 4,
+      "box": 1
+    },
+    {
+      "hiragana": "にく",
+      "romaji": "niku",
+      "meaning": "meat",
+      "category": "food",
+      "week": 4,
+      "box": 1
+    },
+    {
+      "hiragana": "ときどき",
+      "romaji": "tokidoki",
+      "meaning": "sometimes",
+      "category": "adverbs",
+      "week": 4,
+      "box": 1
+    },
+    {
+      "hiragana": "かいもの",
+      "romaji": "kaimono",
+      "meaning": "shopping",
+      "category": "activities",
+      "week": 4,
+      "box": 1
+    },
+    {
+      "hiragana": "さけ",
+      "romaji": "sake",
+      "meaning": "alcohol",
+      "category": "food",
+      "week": 4,
+      "box": 1
+    },
+    {
+      "hiragana": "てがみ",
+      "romaji": "tegami",
+      "meaning": "letter",
+      "category": "communication",
+      "week": 4,
+      "box": 1
+    },
+    {
+      "hiragana": "たんじょうび",
+      "romaji": "tanjoubi",
+      "meaning": "birthday",
+      "category": "life_events",
+      "week": 4,
+      "box": 1
+    },
+    {
+      "hiragana": "せいねんがっぴ",
+      "romaji": "sei-nen-gappi",
+      "meaning": "date of birth",
+      "category": "life_events",
+      "week": 4,
+      "box": 1
+    },
+    {
+      "hiragana": "おおきい",
+      "romaji": "ookii",
+      "meaning": "big",
+      "category": "adjectives",
+      "week": 5,
+      "box": 1
+    },
+    {
+      "hiragana": "ちいさい",
+      "romaji": "chiisai",
+      "meaning": "small",
+      "category": "adjectives",
+      "week": 5,
+      "box": 1
+    },
+    {
+      "hiragana": "すこし",
+      "romaji": "sukoshi",
+      "meaning": "a little, bit, small",
+      "category": "adverbs",
+      "week": 5,
+      "box": 1
+    },
+    {
+      "hiragana": "つまらない",
+      "romaji": "tsumaranai",
+      "meaning": "boring",
+      "category": "adjectives",
+      "week": 5,
+      "box": 1
+    },
+    {
+      "hiragana": "たかい",
+      "romaji": "takai",
+      "meaning": "expensive",
+      "category": "adjectives",
+      "week": 5,
+      "box": 1
+    },
+    {
+      "hiragana": "やすい",
+      "romaji": "yasui",
+      "meaning": "cheap",
+      "category": "adjectives",
+      "week": 5,
+      "box": 1
+    },
+    {
+      "hiragana": "ながい",
+      "romaji": "nagai",
+      "meaning": "long",
+      "category": "adjectives",
+      "week": 5,
+      "box": 1
+    },
+    {
+      "hiragana": "にぎやか",
+      "romaji": "nigiyaka",
+      "meaning": "busy",
+      "category": "adjectives",
+      "week": 5,
+      "box": 1
+    },
+    {
+      "hiragana": "しずか",
+      "romaji": "shizuka",
+      "meaning": "quiet",
+      "category": "adjectives",
+      "week": 5,
+      "box": 1
+    },
+    {
+      "hiragana": "かわいい",
+      "romaji": "kawaii",
+      "meaning": "cute",
+      "category": "adjectives",
+      "week": 5,
+      "box": 1
+    },
+    {
+      "hiragana": "きれい",
+      "romaji": "kirei",
+      "meaning": "pretty",
+      "category": "adjectives",
+      "week": 5,
+      "box": 1
+    },
+    {
+      "hiragana": "ゆうめい",
+      "romaji": "yuumei",
+      "meaning": "famous",
+      "category": "adjectives",
+      "week": 5,
+      "box": 1
+    },
+    {
+      "hiragana": "べんり",
+      "romaji": "benri",
+      "meaning": "convenient",
+      "category": "adjectives",
+      "week": 5,
+      "box": 1
+    },
+    {
+      "hiragana": "わたし",
+      "romaji": "watashi",
+      "meaning": "I",
+      "category": "pronouns",
+      "week": 5,
+      "box": 1
+    },
+    {
+      "hiragana": "かれ",
+      "romaji": "kare",
+      "meaning": "he",
+      "category": "pronouns",
+      "week": 5,
+      "box": 1
+    },
+    {
+      "hiragana": "かのじょ",
+      "romaji": "kanojo",
+      "meaning": "she",
+      "category": "pronouns",
+      "week": 5,
+      "box": 1
+    },
+    {
+      "hiragana": "かれら",
+      "romaji": "karera",
+      "meaning": "they",
+      "category": "pronouns",
+      "week": 5,
+      "box": 1
+    },
+    {
+      "hiragana": "だれか",
+      "romaji": "dareka",
+      "meaning": "someone",
+      "category": "pronouns",
+      "week": 5,
+      "box": 1
+    },
+    {
+      "hiragana": "なにか",
+      "romaji": "nanika",
+      "meaning": "something",
+      "category": "pronouns",
+      "week": 5,
+      "box": 1
+    },
+    {
+      "hiragana": "デパート",
+      "romaji": "depa-to",
+      "meaning": "department store",
+      "category": "places",
+      "week": 5,
+      "box": 1
+    },
+    {
+      "hiragana": "みせ",
+      "romaji": "mise",
+      "meaning": "shop",
+      "category": "places",
+      "week": 5,
+      "box": 1
+    },
+    {
+      "hiragana": "レストラン",
+      "romaji": "resutoran",
+      "meaning": "restaurant",
+      "category": "places",
+      "week": 5,
+      "box": 1
+    },
+    {
+      "hiragana": "きっさてん",
+      "romaji": "kissaten",
+      "meaning": "coffee shop",
+      "category": "places",
+      "week": 5,
+      "box": 1
+    },
+    {
+      "hiragana": "こちゃ",
+      "romaji": "kocha",
+      "meaning": "tea",
+      "category": "food",
+      "week": 5,
+      "box": 1
+    },
+    {
+      "hiragana": "おちゃ",
+      "romaji": "ocha",
+      "meaning": "green tea",
+      "category": "food",
+      "week": 5,
+      "box": 1
+    },
+    {
+      "hiragana": "コーヒー",
+      "romaji": "ko-hi-",
+      "meaning": "coffee",
+      "category": "food",
+      "week": 5,
+      "box": 1
+    },
+    {
+      "hiragana": "ビール",
+      "romaji": "bi-ru",
+      "meaning": "beer",
+      "category": "food",
+      "week": 5,
+      "box": 1
+    },
+    {
+      "hiragana": "たてもの",
+      "romaji": "tatemono",
+      "meaning": "building",
+      "category": "places",
+      "week": 5,
+      "box": 1
+    },
+    {
+      "hiragana": "ビル",
+      "romaji": "biru",
+      "meaning": "building (multi story)",
+      "category": "places",
+      "week": 5,
+      "box": 1
+    },
+    {
+      "hiragana": "ホテル",
+      "romaji": "hoteru",
+      "meaning": "hotel",
+      "category": "places",
+      "week": 5,
+      "box": 1
+    },
+    {
+      "hiragana": "じむしつ",
+      "romaji": "jimushitsu",
+      "meaning": "office",
+      "category": "places",
+      "week": 5,
+      "box": 1
+    },
+    {
+      "hiragana": "だいどころ",
+      "romaji": "daidokoro",
+      "meaning": "kitchen",
+      "category": "places",
+      "week": 5,
+      "box": 1
+    },
+    {
+      "hiragana": "がっこう",
+      "romaji": "gakkou",
+      "meaning": "school",
+      "category": "places",
+      "week": 5,
+      "box": 1
+    },
+    {
+      "hiragana": "だいがっこう",
+      "romaji": "daigaku",
+      "meaning": "university",
+      "category": "places",
+      "week": 5,
+      "box": 1
+    },
+    {
+      "hiragana": "プール",
+      "romaji": "pu-ru",
+      "meaning": "pool",
+      "category": "places",
+      "week": 5,
+      "box": 1
+    },
+    {
+      "hiragana": "はっぱ",
+      "romaji": "happa",
+      "meaning": "leaves",
+      "category": "nature",
+      "week": 5,
+      "box": 1
+    },
+    {
+      "hiragana": "といっしょに",
+      "romaji": "to issho ni",
+      "meaning": "together with",
+      "category": "phrases",
+      "week": 5,
+      "box": 1
+    },
+    {
+      "hiragana": "くだもの",
+      "romaji": "kudamono",
+      "meaning": "fruits",
+      "category": "food",
+      "week": 5,
+      "box": 1
+    },
+    {
+      "hiragana": "スポツ",
+      "romaji": "supotsu",
+      "meaning": "sports",
+      "category": "activities",
+      "week": 5,
+      "box": 1
+    },
+    {
+      "hiragana": "サッカー",
+      "romaji": "sakka-",
+      "meaning": "soccer",
+      "category": "sports",
+      "week": 5,
+      "box": 1
+    },
+    {
+      "hiragana": "やきゅう",
+      "romaji": "yakyuu",
+      "meaning": "baseball",
+      "category": "sports",
+      "week": 5,
+      "box": 1
+    },
+    {
+      "hiragana": "クリケット",
+      "romaji": "kuriketto",
+      "meaning": "cricket",
+      "category": "sports",
+      "week": 5,
+      "box": 1
+    },
+    {
+      "hiragana": "テニス",
+      "romaji": "tenisu",
+      "meaning": "tennis",
+      "category": "sports",
+      "week": 5,
+      "box": 1
+    },
+    {
+      "hiragana": "はいざら",
+      "romaji": "haizara",
+      "meaning": "ashtray",
+      "category": "objects",
+      "week": 5,
+      "box": 1
+    },
+    {
+      "hiragana": "てぶくろ",
+      "romaji": "tebukuro",
+      "meaning": "gloves",
+      "category": "clothing",
+      "week": 5,
+      "box": 1
+    },
+    {
+      "hiragana": "たくさん",
+      "romaji": "takusan",
+      "meaning": "a lot",
+      "category": "adverbs",
+      "week": 5,
+      "box": 1
+    },
+    {
+      "hiragana": "かしゅう",
+      "romaji": "kashuu",
+      "meaning": "singer",
+      "category": "profession",
+      "week": 5,
+      "box": 1
+    },
+    {
+      "hiragana": "がか",
+      "romaji": "gaka",
+      "meaning": "painter, artist",
+      "category": "profession",
+      "week": 5,
+      "box": 1
+    },
+    {
+      "hiragana": "シェフ",
+      "romaji": "shefu",
+      "meaning": "chef",
+      "category": "profession",
+      "week": 5,
+      "box": 1
+    },
+    {
+      "hiragana": "やさい",
+      "romaji": "yasai",
+      "meaning": "vegetables",
+      "category": "food",
+      "week": 5,
+      "box": 1
+    },
+    {
+      "hiragana": "じゃがいも",
+      "romaji": "zagaimo",
+      "meaning": "potato",
+      "category": "food",
+      "week": 5,
+      "box": 1
+    },
+    {
+      "hiragana": "たまねぎ",
+      "romaji": "tamanegi",
+      "meaning": "onion",
+      "category": "food",
+      "week": 5,
+      "box": 1
+    },
+    {
+      "hiragana": "だいこん",
+      "romaji": "daikon",
+      "meaning": "reddish",
+      "category": "food",
+      "week": 5,
+      "box": 1
+    },
+    {
+      "hiragana": "にんじん",
+      "romaji": "ninjin",
+      "meaning": "carrot",
+      "category": "food",
+      "week": 5,
+      "box": 1
+    },
+    {
+      "hiragana": "キャベツ",
+      "romaji": "kyabetsu",
+      "meaning": "cabbage",
+      "category": "food",
+      "week": 5,
+      "box": 1
+    },
+    {
+      "hiragana": "レタス",
+      "romaji": "retasu",
+      "meaning": "lettuce",
+      "category": "food",
+      "week": 5,
+      "box": 1
+    },
+    {
+      "hiragana": "ピーマン",
+      "romaji": "pi-man",
+      "meaning": "bell pepper",
+      "category": "food",
+      "week": 5,
+      "box": 1
+    },
+    {
+      "hiragana": "トマト",
+      "romaji": "tomato",
+      "meaning": "tomato",
+      "category": "food",
+      "week": 5,
+      "box": 1
+    },
+    {
+      "hiragana": "しょうが",
+      "romaji": "shouga",
+      "meaning": "ginger",
+      "category": "food",
+      "week": 5,
+      "box": 1
+    },
+    {
+      "hiragana": "ネクタイ",
+      "romaji": "nekutai",
+      "meaning": "neck tie",
+      "category": "clothing",
+      "week": 6,
+      "box": 1
+    },
+    {
+      "hiragana": "おいしい",
+      "romaji": "oishii",
+      "meaning": "tasty, delicious",
+      "category": "adjectives",
+      "week": 6,
+      "box": 1
+    },
+    {
+      "hiragana": "おおきい",
+      "romaji": "ookii",
+      "meaning": "big",
+      "category": "adjectives",
+      "week": 6,
+      "box": 1
+    },
+    {
+      "hiragana": "おそい",
+      "romaji": "osoi",
+      "meaning": "late, slow",
+      "category": "adjectives",
+      "week": 6,
+      "box": 1
+    },
+    {
+      "hiragana": "おもい",
+      "romaji": "omoi",
+      "meaning": "heavy",
+      "category": "adjectives",
+      "week": 6,
+      "box": 1
+    },
+    {
+      "hiragana": "おもしろい",
+      "romaji": "omoshiroi",
+      "meaning": "interesting, funny",
+      "category": "adjectives",
+      "week": 6,
+      "box": 1
+    },
+    {
+      "hiragana": "はやい",
+      "romaji": "hayai",
+      "meaning": "fast, quick, early",
+      "category": "adjectives",
+      "week": 6,
+      "box": 1
+    },
+    {
+      "hiragana": "ひくい",
+      "romaji": "hikui",
+      "meaning": "low",
+      "category": "adjectives",
+      "week": 6,
+      "box": 1
+    },
+    {
+      "hiragana": "ひろい",
+      "romaji": "hiroi",
+      "meaning": "wide, spacious",
+      "category": "adjectives",
+      "week": 6,
+      "box": 1
+    },
+    {
+      "hiragana": "ふとい",
+      "romaji": "futoi",
+      "meaning": "thick, fat",
+      "category": "adjectives",
+      "week": 6,
+      "box": 1
+    },
+    {
+      "hiragana": "ふるい",
+      "romaji": "furui",
+      "meaning": "old",
+      "category": "adjectives",
+      "week": 6,
+      "box": 1
+    },
+    {
+      "hiragana": "かわいい",
+      "romaji": "kawaii",
+      "meaning": "cute",
+      "category": "adjectives",
+      "week": 6,
+      "box": 1
+    },
+    {
+      "hiragana": "きれい",
+      "romaji": "kirei",
+      "meaning": "beautiful",
+      "category": "adjectives",
+      "week": 6,
+      "box": 1
+    },
+    {
+      "hiragana": "ていねい",
+      "romaji": "teinei",
+      "meaning": "polite",
+      "category": "adjectives",
+      "week": 6,
+      "box": 1
+    },
+    {
+      "hiragana": "しんせつ",
+      "romaji": "shinsetsu",
+      "meaning": "kind",
+      "category": "adjectives",
+      "week": 6,
+      "box": 1
+    },
+    {
+      "hiragana": "ぼうし",
+      "romaji": "boushi",
+      "meaning": "hat/cap",
+      "category": "clothing",
+      "week": 6,
+      "box": 1
+    },
+    {
+      "hiragana": "ぶどう",
+      "romaji": "budou",
+      "meaning": "grapes",
+      "category": "food",
+      "week": 6,
+      "box": 1
+    },
+    {
+      "hiragana": "いちご",
+      "romaji": "ichigo",
+      "meaning": "strawberry",
+      "category": "food",
+      "week": 6,
+      "box": 1
+    },
+    {
+      "hiragana": "ミルク",
+      "romaji": "miruku",
+      "meaning": "milk",
+      "category": "food",
+      "week": 6,
+      "box": 1
+    },
+    {
+      "hiragana": "ジュース",
+      "romaji": "ju-su",
+      "meaning": "juice",
+      "category": "food",
+      "week": 6,
+      "box": 1
+    },
+    {
+      "hiragana": "てんらんかい",
+      "romaji": "tenrankai",
+      "meaning": "exhibition",
+      "category": "events",
+      "week": 6,
+      "box": 1
+    },
+    {
+      "hiragana": "まご",
+      "romaji": "mago",
+      "meaning": "grandchild",
+      "category": "family",
+      "week": 6,
+      "box": 1
+    },
+    {
+      "hiragana": "めい",
+      "romaji": "mei",
+      "meaning": "niece",
+      "category": "family",
+      "week": 6,
+      "box": 1
+    },
+    {
+      "hiragana": "おい",
+      "romaji": "oi",
+      "meaning": "nephew",
+      "category": "family",
+      "week": 6,
+      "box": 1
+    },
+    {
+      "hiragana": "いくつ",
+      "romaji": "ikutsu",
+      "meaning": "how many",
+      "category": "question_words",
+      "week": 6,
+      "box": 1
+    },
+    {
+      "hiragana": "どの",
+      "romaji": "dono",
+      "meaning": "which",
+      "category": "question_words",
+      "week": 6,
+      "box": 1
+    },
+    {
+      "hiragana": "どんな",
+      "romaji": "donna",
+      "meaning": "what type of",
+      "category": "question_words",
+      "week": 6,
+      "box": 1
+    },
+    {
+      "hiragana": "なにか",
+      "romaji": "nanika",
+      "meaning": "something",
+      "category": "pronouns",
+      "week": 6,
+      "box": 1
+    },
+    {
+      "hiragana": "なにも",
+      "romaji": "nanimo",
+      "meaning": "nothing",
+      "category": "pronouns",
+      "week": 6,
+      "box": 1
+    },
+    {
+      "hiragana": "あまり",
+      "romaji": "amari",
+      "meaning": "not much",
+      "category": "adverbs",
+      "week": 6,
+      "box": 1
+    },
+    {
+      "hiragana": "よく",
+      "romaji": "yoku",
+      "meaning": "well, nicely",
+      "category": "adverbs",
+      "week": 6,
+      "box": 1
+    },
+    {
+      "hiragana": "たくさん",
+      "romaji": "takusan",
+      "meaning": "a lot, plenty",
+      "category": "adverbs",
+      "week": 6,
+      "box": 1
+    },
+    {
+      "hiragana": "あたま",
+      "romaji": "atama",
+      "meaning": "head",
+      "category": "body_parts",
+      "week": 6,
+      "box": 1
+    },
+    {
+      "hiragana": "はな",
+      "romaji": "hana",
+      "meaning": "nose",
+      "category": "body_parts",
+      "week": 6,
+      "box": 1
+    },
+    {
+      "hiragana": "おなか",
+      "romaji": "onaka",
+      "meaning": "stomach",
+      "category": "body_parts",
+      "week": 6,
+      "box": 1
+    },
+    {
+      "hiragana": "きもち",
+      "romaji": "kimochi",
+      "meaning": "feeling",
+      "category": "emotions",
+      "week": 6,
+      "box": 1
+    },
+    {
+      "hiragana": "かんけい",
+      "romaji": "kankei",
+      "meaning": "relation",
+      "category": "abstract_nouns",
+      "week": 6,
+      "box": 1
+    },
+    {
+      "hiragana": "あげます",
+      "romaji": "agemasu",
+      "meaning": "to give",
+      "category": "verb",
+      "week": 7,
+      "box": 1
+    },
+    {
+      "hiragana": "もらいます",
+      "romaji": "moraimasu",
+      "meaning": "to receive",
+      "category": "verb",
+      "week": 7,
+      "box": 1
+    },
+    {
+      "hiragana": "くれます",
+      "romaji": "kuremasu",
+      "meaning": "to give, to let one have",
+      "category": "verb",
+      "week": 7,
+      "box": 1
+    },
+    {
+      "hiragana": "くださいます",
+      "romaji": "kudasaimasu",
+      "meaning": "to give, to let one have",
+      "category": "verb",
+      "week": 7,
+      "box": 1
+    },
+    {
+      "hiragana": "いただきます",
+      "romaji": "itadakimasu",
+      "meaning": "to receive (polite)",
+      "category": "verb",
+      "week": 7,
+      "box": 1
+    },
+    {
+      "hiragana": "さしあげます",
+      "romaji": "sashiagemasu",
+      "meaning": "to give (polite)",
+      "category": "verb",
+      "week": 7,
+      "box": 1
+    },
+    {
+      "hiragana": "はこびます",
+      "romaji": "hakobimasu",
+      "meaning": "to carry, to transport",
+      "category": "verb",
+      "week": 7,
+      "box": 1
+    },
+    {
+      "hiragana": "どうして",
+      "romaji": "doushite",
+      "meaning": "why",
+      "category": "question_word",
+      "week": 7,
+      "box": 1
+    },
+    {
+      "hiragana": "なにか",
+      "romaji": "nanika",
+      "meaning": "something",
+      "category": "pronoun",
+      "week": 7,
+      "box": 1
+    },
+    {
+      "hiragana": "なにも",
+      "romaji": "nanimo",
+      "meaning": "nothing",
+      "category": "pronoun",
+      "week": 7,
+      "box": 1
+    },
+    {
+      "hiragana": "えいが",
+      "romaji": "eiga",
+      "meaning": "movie",
+      "category": "noun",
+      "week": 7,
+      "box": 1
+    },
+    {
+      "hiragana": "いかが です か",
+      "romaji": "ikaga desu ka",
+      "meaning": "What about this?",
+      "category": "phrase",
+      "week": 7,
+      "box": 1
+    },
+    {
+      "hiragana": "よかった です",
+      "romaji": "yokatta desu",
+      "meaning": "It's good",
+      "category": "phrase",
+      "week": 7,
+      "box": 1
+    },
+    {
+      "hiragana": "おみやげ",
+      "romaji": "omiyage",
+      "meaning": "present",
+      "category": "noun",
+      "week": 7,
+      "box": 1
+    },
+    {
+      "hiragana": "にんぎょう",
+      "romaji": "ningyou",
+      "meaning": "Japanese doll",
+      "category": "noun",
+      "week": 7,
+      "box": 1
+    },
+    {
+      "hiragana": "おかね",
+      "romaji": "okane",
+      "meaning": "money",
+      "category": "noun",
+      "week": 7,
+      "box": 1
+    },
+    {
+      "hiragana": "おしょうがつ",
+      "romaji": "O-shougatsu",
+      "meaning": "new year",
+      "category": "noun",
+      "week": 7,
+      "box": 1
+    },
+    {
+      "hiragana": "ときどき",
+      "romaji": "tokidoki",
+      "meaning": "sometimes",
+      "category": "adverb",
+      "week": 7,
+      "box": 1
+    },
+    {
+      "hiragana": "そつぎょう",
+      "romaji": "sotsugyou",
+      "meaning": "graduation",
+      "category": "noun",
+      "week": 7,
+      "box": 1
+    },
+    {
+      "hiragana": "せいかつ",
+      "romaji": "seikatsu",
+      "meaning": "life",
+      "category": "noun",
+      "week": 7,
+      "box": 1
+    },
+    {
+      "hiragana": "ぐあい",
+      "romaji": "guai",
+      "meaning": "condition",
+      "category": "noun",
+      "week": 7,
+      "box": 1
+    },
+    {
+      "hiragana": "きもち",
+      "romaji": "kimochi",
+      "meaning": "feeling",
+      "category": "noun",
+      "week": 7,
+      "box": 1
+    },
+    {
+      "hiragana": "そふ",
+      "romaji": "sofu",
+      "meaning": "grandfather",
+      "category": "family_noun",
+      "week": 7,
+      "box": 1
+    },
+    {
+      "hiragana": "そぼ",
+      "romaji": "sobo",
+      "meaning": "grandmother",
+      "category": "family_noun",
+      "week": 7,
+      "box": 1
+    }
+  ]
+}

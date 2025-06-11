@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Japanese Vocabulary Flashcards</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f5f5f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
+        
+        .container {
+            width: 90%;
+            max-width: 500px;
+        }
+        
+        .flashcard {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            position: relative;
+            height: 350px;
+            perspective: 1000px;
+        }
+        
+        .card {
+            width: 100%;
+            height: 100%;
+            position: relative;
+            transform-style: preserve-3d;
+            transition: transform 0.6s;
+        }
+        
+        .card.flipped {
+            transform: rotateY(180deg);
+        }
+        
+        .front, .back {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .back {
+            transform: rotateY(180deg);
+        }
+        
+        .image-container {
+            width: 200px;
+            height: 200px;
+            background-color: #f0f0f0;
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+        
+        .image-container img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: cover;
+        }
+        
+        .meaning {
+            font-size: 24px;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        
+        .hiragana {
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+        
+        .romaji {
+            font-size: 18px;
+            color: #555;
+            margin-bottom: 20px;
+        }
+        
+        .controls {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            display: flex;
+            gap: 10px;
+        }
+        
+        .btn {
+            padding: 8px 12px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        
+        .btn:hover {
+            background-color: #45a049;
+        }
+        
+        .btn-restart {
+            background-color: #f44336;
+        }
+        
+        .btn-restart:hover {
+            background-color: #d32f2f;
+        }
+        
+        .difficulty-buttons {
+            display: flex;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        
+        .difficulty-btn {
+            padding: 8px 12px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        
+        .easy {
+            background-color: #4CAF50;
+            color: white;
+        }
+        
+        .medium {
+            background-color: #FFC107;
+            color: black;
+        }
+        
+        .hard {
+            background-color: #f44336;
+            color: white;
+        }
+        
+        .box-filter {
+            margin-bottom: 20px;
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+        }
+        
+        .box-btn {
+            padding: 8px 12px;
+            background-color: #2196F3;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        
+        .box-btn.active {
+            background-color: #0b7dda;
+            font-weight: bold;
+        }
+        
+        .progress {
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        
+        .category-tag {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background-color: #9C27B0;
+            color: white;
+            padding: 4px 8px;
+            border-radius: 12px;
+            font-size: 12px;
+        }
+        
+        .box-indicator {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            background-color: #607D8B;
+            color: white;
+            padding: 4px 8px;
+            border-radius: 12px;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box-filter">
+            <button class="box-btn" data-box="all">All Cards</button>
+            <button class="box-btn" data-box="1">Box 1</button>
+            <button class="box-btn" data-box="2">Box 2</button>
+            <button class="box-btn" data-box="3">Box 3</button>
+        </div>
+        
+        <div class="progress">
+            Card <span id="currentCard">0</span> of <span id="totalCards">0</span>
+        </div>
+        
+        <div class="flashcard">
+            <div class="card">
+                <div class="front">
+                    <div class="category-tag" id="category"></div>
+                    <div class="image-container">
+                        <img id="wordImage" src="" alt="Loading image...">
+                    </div>
+                    <div class="meaning" id="meaning"></div>
+                    <div class="box-indicator">Box: <span id="boxNumber"></span></div>
+                </div>
+                <div class="back">
+                    <div class="hiragana" id="hiragana"></div>
+                    <div class="romaji" id="romaji"></div>
+                    <div class="difficulty-buttons">
+                        <button class="difficulty-btn hard" data-box="1">Difficult</button>
+                        <button class="difficulty-btn medium" data-box="2">Medium</button>
+                        <button class="difficulty-btn easy" data-box="3">Easy</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="controls">
+                <button class="btn btn-restart" id="restartButton">Restart</button>
+                <button class="btn" id="nextButton">Next</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            let vocabulary = [];
+            let currentIndex = 0;
+            let currentBox = 'all';
+            let filteredVocabulary = [];
+            
+            // Fetch vocabulary data
+            fetch('/vocabulary')
+                .then(response => response.json())
+                .then(data => {
+                    vocabulary = data.vocabulary;
+                    filterByBox(currentBox);
+                    updateBoxButtons();
+                    if (filteredVocabulary.length > 0) {
+                        displayCard();
+                    }
+                })
+                .catch(error => console.error('Error loading vocabulary:', error));
+            
+            // Card elements
+            const card = document.querySelector('.card');
+            const nextButton = document.getElementById('nextButton');
+            const restartButton = document.getElementById('restartButton');
+            const boxButtons = document.querySelectorAll('.box-btn');
+            const difficultyButtons = document.querySelectorAll('.difficulty-btn');
+            
+            // Click to flip card
+            card.addEventListener('click', function(e) {
+                // Don't flip if clicking on buttons
+                if (e.target.tagName === 'BUTTON') return;
+                card.classList.toggle('flipped');
+            });
+            
+            // Next button
+            nextButton.addEventListener('click', function() {
+                if (card.classList.contains('flipped')) {
+                    card.classList.remove('flipped');
+                }
+                currentIndex++;
+                if (currentIndex >= filteredVocabulary.length) {
+                    currentIndex = 0;
+                }
+                displayCard();
+            });
+            
+            // Restart button
+            restartButton.addEventListener('click', function() {
+                currentIndex = 0;
+                if (card.classList.contains('flipped')) {
+                    card.classList.remove('flipped');
+                }
+                displayCard();
+            });
+            
+            // Box filter buttons
+            boxButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    currentBox = this.dataset.box;
+                    filterByBox(currentBox);
+                    updateBoxButtons();
+                    currentIndex = 0;
+                    if (card.classList.contains('flipped')) {
+                        card.classList.remove('flipped');
+                    }
+                    displayCard();
+                });
+            });
+            
+            // Difficulty buttons
+            difficultyButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    const newBox = parseInt(this.dataset.box);
+                    updateCardBox(filteredVocabulary[currentIndex], newBox);
+                    
+                    // Move to next card automatically after choosing difficulty
+                    setTimeout(() => {
+                        if (card.classList.contains('flipped')) {
+                            card.classList.remove('flipped');
+                        }
+                        currentIndex++;
+                        if (currentIndex >= filteredVocabulary.length) {
+                            currentIndex = 0;
+                        }
+                        displayCard();
+                    }, 500);
+                });
+            });
+            
+            // Filter vocabulary by box
+            function filterByBox(box) {
+                if (box === 'all') {
+                    filteredVocabulary = [...vocabulary];
+                } else {
+                    box = parseInt(box);
+                    filteredVocabulary = vocabulary.filter(item => item.box === box);
+                }
+                
+                document.getElementById('totalCards').textContent = filteredVocabulary.length;
+            }
+            
+            // Update box button active state
+            function updateBoxButtons() {
+                boxButtons.forEach(button => {
+                    if (button.dataset.box === currentBox) {
+                        button.classList.add('active');
+                    } else {
+                        button.classList.remove('active');
+                    }
+                });
+            }
+            
+            // Display current card
+            function displayCard() {
+                if (filteredVocabulary.length === 0) {
+                    document.getElementById('meaning').textContent = "No cards in this box";
+                    document.getElementById('hiragana').textContent = "";
+                    document.getElementById('romaji').textContent = "";
+                    document.getElementById('category').textContent = "";
+                    document.getElementById('boxNumber').textContent = "";
+                    document.getElementById('wordImage').src = "";
+                    document.getElementById('currentCard').textContent = "0";
+                    return;
+                }
+                
+                const current = filteredVocabulary[currentIndex];
+                
+                document.getElementById('meaning').textContent = current.meaning;
+                document.getElementById('hiragana').textContent = current.hiragana;
+                document.getElementById('romaji').textContent = current.romaji;
+                document.getElementById('category').textContent = current.category;
+                document.getElementById('boxNumber').textContent = current.box;
+                document.getElementById('currentCard').textContent = currentIndex + 1;
+                
+                // Load image from Unsplash using the meaning as search query
+                fetchUnsplashImage(current.meaning);
+            }
+            
+            // Fetch image from Unsplash
+            function fetchUnsplashImage(query) {
+                fetch(`/image?query=${encodeURIComponent(query)}`)
+                    .then(response => response.json())
+                    .then(data => {
+                        if (data.url) {
+                            document.getElementById('wordImage').src = data.url;
+                        } else {
+                            document.getElementById('wordImage').src = "";
+                        }
+                    })
+                    .catch(error => {
+                        console.error('Error fetching image:', error);
+                        document.getElementById('wordImage').src = "";
+                    });
+            }
+            
+            // Update card box in database
+            function updateCardBox(card, newBox) {
+                fetch('/update-box', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        hiragana: card.hiragana,
+                        box: newBox
+                    })
+                })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.success) {
+                        // Update local data
+                        const vocabIndex = vocabulary.findIndex(v => v.hiragana === card.hiragana);
+                        if (vocabIndex !== -1) {
+                            vocabulary[vocabIndex].box = newBox;
+                            
+                            // If we're filtering by box, we need to refilter
+                            if (currentBox !== 'all' && parseInt(currentBox) !== newBox) {
+                                // Remove this card from filtered list
+                                filteredVocabulary = filteredVocabulary.filter(v => v.hiragana !== card.hiragana);
+                                document.getElementById('totalCards').textContent = filteredVocabulary.length;
+                            }
+                        }
+                    }
+                })
+                .catch(error => console.error('Error updating box:', error));
+            }
+        });
+    </script>
+</body>
+</html>
